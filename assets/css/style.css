@@ -15,6 +15,7 @@ body {
     background-color: rgb(21, 19, 23);
 
     font-family: 'Mina', sans-serif;
+    letter-spacing: 2px;
 }
 
 #blur {
@@ -31,7 +32,7 @@ header {
     text-transform: uppercase;
 
     padding-left: 5rem;
-    /* background-color: rgb(51, 49, 49); */
+    background-color: rgb(51 49 49 / 71%);
 }
 
 #menu {
@@ -42,7 +43,7 @@ header {
 
     padding-left: 5rem;
 
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(51 49 49);
 }
 
 h1 {
@@ -67,7 +68,6 @@ a {
 #outer-hero-img {
     overflow: hidden;
     position: relative;
-    border-bottom: 3rem solid rgb(37, 36, 36);
 }
 
 #hero {
@@ -78,20 +78,68 @@ a {
 }
 
 #headline {
-    background-color: rgb(85 92 76 / 79%);
+    background-color: rgb(51 49 49 / 71%);
+    color: rgb(165 157 139);
     
     margin: 0;
 
-    padding: 3rem;
+    padding: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
 }
+/* Section about the tea */
 
+#tea {
+    padding: 5rem;
+
+    background-color: rgb(51 49 49);
+}
+
+#tea-black {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+
+    padding: 3rem;
+}
+
+#tea-red {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+
+    padding: 3rem;
+}
+
+#tea-green {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+
+    padding: 3rem;
+}
+
+.tea-img {
+    height: 48vh;
+    width: 24vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51 49 49);
+
+}
+
+/* 
 #box-container {
     display: flex;
-    /* gap: 2rem;
-    text-align: start;
-    background-color: rgb(37, 36, 36); */
     flex-direction: row;
 }
 
@@ -111,4 +159,4 @@ footer {
     border-top: 3rem solid rgb(37, 36, 36);
     border-bottom: 3rem solid rgb(37, 36, 36);
     background-color: rgb(85 92 76 / 79%);
-}
+} */
