@@ -50,6 +50,10 @@ h1 {
     padding-left: 2.8;
 }
 
+h2 {
+    color: rgb(165 157 139);
+}
+
 span {
     text-transform: uppercase;
     border-bottom: 1px solid;
@@ -73,6 +77,8 @@ a {
 
 p {
     padding-right: 1rem;
+    color: rgb(165 157 139);
+    font-size: 0.8rem;
 }
 
 #outer-hero-img {
@@ -152,14 +158,13 @@ p {
     width: 24vw;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(51 49 49);
-
+/* About section */
+#about {
+    border-top: 3rem solid rgb(51 49 49);
+    border-bottom: 3rem solid rgb(51 49 49);
+    background-color: rgb(85 92 76 / 79%);
 }
 
-/* 
 #box-container {
     display: flex;
     flex-direction: row;
@@ -172,13 +177,14 @@ footer {
 }
 
 .try {
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(51 49 49);
     padding: 1rem;
     width: 2%;
 }
 
 footer {
-    border-top: 3rem solid rgb(37, 36, 36);
-    border-bottom: 3rem solid rgb(37, 36, 36);
-    background-color: rgb(85 92 76 / 79%);
-} */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51 49 49);
+
+}
