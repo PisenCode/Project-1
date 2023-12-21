@@ -46,6 +46,10 @@ header {
     background-color: rgb(51 49 49);
 }
 
+#menu :hover {
+    color: rgb(165 157 139);
+}
+
 h1 {
     padding-left: 2.8;
 }
@@ -96,6 +100,8 @@ p {
 #headline {
     background-color: rgb(51 49 49 / 71%);
     color: rgb(165 157 139);
+
+    font-size: 1rem;
     
     margin: 0;
 
